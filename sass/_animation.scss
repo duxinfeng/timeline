@@ -1,0 +1,27 @@
+.entry-animation.animate {
+	.bio {
+		transform: translateY(-100%);
+	}
+	.my-name {
+		left: 0vh;
+	}
+	.timeline {
+		transform: translateX(100%);
+
+	}
+	.timeline-blurb {
+		transform: translateX(75%)
+	}
+	.first-breaker {
+		transform: translateX(75%);
+	}
+
+	footer {
+		opacity: 0;
+	}
+}
+
+.disable-scroll-nav {
+	max-width: 100%;
+	overflow-x: hidden;
+}
